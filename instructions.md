@@ -16,3 +16,7 @@ You can use Cheat Engine for this.
  
 
 3. Then you will notice that when you change the slider one of those values changes accordingly. That value is not in our interest since it is used for the gui only. *But* if you hit apply you will notice a second memory cell changing it's value to the new value you have set. That's the memory address you want to modify
+
+*Assuming you found the one value you have 2 more to go*😝
+... or you can just add +4bytes for our dear u_int values 🤪 
+... it first goes the blue then the green and so...RGB turns into BGR
