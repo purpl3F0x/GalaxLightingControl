@@ -10,17 +10,16 @@ You can use Cheat Engine for this.
 
  1. Open Cheat Engine and load the XT+ Program.
  ![Open Cheat Engine and load the XT+ Program.](https://i.imgur.com/HUspNhG.png)
-
-
-
-
+ 
+</br></br>
 
  2. Set the value of one of the Colors to some value you like. And then Scan the programm for that value.![enter image description here](https://i.imgur.com/iqRCzsr.png)
  
- 
- 
+ </br></br>
 
 3. Then you will notice that when you change the slider one of those values changes accordingly. That value is not in our interest since it is used for the gui only. *But* if you hit apply you will notice a second memory cell changing it's value to the new value you have set. That's the memory address you want to modify
+
+</br></br>
 
 *Assuming you found the one value you have 2 more to go*😝
 ... or you can just add +4bytes for our dear u_int values 🤪 
