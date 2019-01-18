@@ -1,4 +1,4 @@
-# GalaxLightingControl
+# Galax Lighting Control
 A simple c++ programm that overides GALAX/KFA2 Lighting service.
 
 
