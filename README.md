@@ -1,2 +1,2 @@
 # GalaxLightingControl
-A simple c++ programm that overides GALAX/KFA2 Lighting service.
+Branch for Reverse Engineering via Nvidia's API via i2c bus.
