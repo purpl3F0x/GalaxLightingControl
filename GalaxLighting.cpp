@@ -28,7 +28,9 @@ GalaxLighting::GalaxLighting() : Window(NULL), procID(0) {
   if (!hProc) {
     throw ("Can't open process: %i", GetLastError());
   } else {
+    #ifdef DEBUG
     printf("Ready override XT+ values");
+    #endif
   }
 }
 
