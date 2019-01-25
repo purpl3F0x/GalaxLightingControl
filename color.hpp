@@ -33,16 +33,15 @@ struct RGB_COLOR {
 
 RGB_COLOR hsv2rgb(double H, double S, double V) {
 
+  double P, Q, T, fract;
+  double _r = 0, _g = 0, _b = 0;
+
   while (H > 359) {
     H = H - 360;
   }
 
-  double P, Q, T, fract;
-
   (H==360.) ? (H = 0.) : (H /= 60.);
   fract = H - floor(H);
-
-  double _r, _g, _b;
 
   P = V*(1. - S);
   Q = V*(1. - S*fract);

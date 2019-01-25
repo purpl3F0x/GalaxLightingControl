@@ -28,7 +28,7 @@ GalaxLighting::GalaxLighting() : Window(NULL), procID(0) {
   if (!hProc) {
     throw ("Can't open process: %i", GetLastError());
   } else {
-    printf("Ready override XT+ values");
+    printf("Ready override XT+ values\n");
   }
 }
 
@@ -38,8 +38,6 @@ void GalaxLighting::Apply() {
   WriteProcessMemory(hProc, (BYTE*) RED_ADDRESS, (LPDWORD) &red, sizeof(DWORD), NULL);
   WriteProcessMemory(hProc, (BYTE*) GREEN_ADDRESS, (LPDWORD) &green, sizeof(DWORD), NULL);
   WriteProcessMemory(hProc, (BYTE*) BLUE_ADDRESS, (LPDWORD) &blue, sizeof(DWORD), NULL);
-
-  //printf("%d %d %d\n",red,green,blue);
 }
 
 void GalaxLighting::SetColor(uint32_t r, uint32_t g, uint32_t b) {

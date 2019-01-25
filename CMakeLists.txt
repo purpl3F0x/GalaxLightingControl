@@ -4,4 +4,4 @@ project(GalaxLightingControl)
 set(CMAKE_CXX_STANDARD 11)
 
 
-add_executable(GalaxLightingControl main.cpp GalaxLighting.cpp GalaxLighting.hpp color.hpp)
+add_executable(GalaxLightingControl main.cpp GalaxLighting.cpp color.hpp)
